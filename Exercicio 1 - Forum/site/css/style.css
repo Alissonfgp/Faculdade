@@ -1,0 +1,79 @@
+body {
+	background:url('..//img/bg.jpg') center top no-repeat fixed;
+	background-color:#8A2BE2;
+	background-size: cover;
+	position: relative;
+}
+.title-text{
+	margin-top:300px;
+	font-size:65px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #3C1A5B;
+	text-align: center;
+	position: relative;
+}
+.info-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #3C1A5B;
+	text-align: center;
+}
+.return-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #955400;
+	text-align: center;
+}
+.signo-nome{
+	font-size:65px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #262626;
+	text-align: center;
+	position: relative;
+	text-decoration: underline;
+}
+.desc-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #504A55;
+	text-align: center;
+}
+.search-box{
+	width:100%;
+	padding:20px;
+	margin-bottom:15px;
+	background-color:#F1F1F1;
+	box-sizing:border-box;
+	border-radius:15px 15px 15px 15px;
+	border:5px solid #3C1A5B;
+	box-shadow:#6C5B7D 3px 3px 3px;
+}
+
+.search-box-fieldset{
+	width:100%;
+	padding:20px;
+	margin-bottom:15px;
+	background-color:#F1F1F1;
+	box-sizing:border-box;
+	border-radius:15px 15px 15px 15px;
+	border:5px solid #774B51;
+	box-shadow:#774B51 3px 3px 3px;
+}
+
+@media (max-width: 1900px){
+	.body {
+	  width: 1230px;
+	}
+  }
+  
+@media (max-width: 992px){
+	.body {
+	  width: 960px;
+	  max-width: 100%;
+	}
+}
