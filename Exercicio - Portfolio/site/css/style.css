@@ -1,0 +1,145 @@
+body {
+	background:url('..//img/bg.png') center top no-repeat fixed;
+	background-color:#121212;
+	background-size: cover;
+	position: relative;
+}
+.title-login{
+	margin-top:150px;
+	font-size:65px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #805931;
+	text-align: center;
+	position: relative;
+}
+.info-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #FFCC96;
+	text-align: center;
+	text-decoration: underline;
+}
+.return-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #955400;
+	text-align: center;
+}
+.signo-nome{
+	font-size:65px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #262626;
+	text-align: center;
+	position: relative;
+	text-decoration: underline;
+}
+.desc-text{
+	font-size:35px;
+	font-weight:500;
+	margin-bottom:5px;
+	color: #504A55;
+	text-align: center;
+}
+.login-box{
+	width:475px;
+	height:520px;
+	margin-left:720px;
+	background-color:#121212;
+	box-sizing:border-box;
+	border-radius:15px 15px 15px 15px;
+	border:5px solid #575757;
+	box-shadow:#352B28 1px 1px 1px 1px;
+}
+
+.login-box-fieldset{
+	width:100%;
+	padding:20px;
+	margin-bottom:15px;
+	background-color:#F1F1F1;
+	box-sizing:border-box;
+	border-radius:15px 15px 15px 15px;
+	border:5px solid #774B51;
+	box-shadow:#774B51 3px 3px 3px;
+}
+.input-login{
+	width:350px;
+	height:500px;
+	margin-left:775px;
+	background-color:#2F2F2F;
+	box-sizing:border-box;
+	border-radius:15px 15px 15px 15px;
+	border:5px solid #197E8F;
+	box-shadow:#3BC6C6 1px 1px 1px 1px;
+}
+
+/*Esses codigos foram removidos de um outro projeto(privado) meu (Alisson Felipe) sendo reutilizado aqui*/
+
+/*Campo de texto style*/
+.input-group{margin-bottom:10px;margin-left:20px;}
+.input-group label{display:inline-block;margin-left:135px;color:#916834;font-size:25px;font-weight:500;}
+.input-group > .error{color:red;}
+.input-group input[type=text],
+.input-group input[type=number],
+.input-group input[type=email],
+.input-group input[type=password],
+.input-group input[type=file]{width:320px;height:18px;padding:10px 20px 10px 20px;border-radius:25px;outline:none;background:#cdcdc1;border:1px solid #050505;color:#000;}
+.input-group textarea{width:780px;height:100px;padding:10px 20px 10px 20px;border-radius:25px;outline:none;background:#cdcdc1;border:1px solid #050505;color:#000;resize:none;}
+.input-group textarea::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);background-color:#F5F5F5;}
+.input-group textarea::-webkit-scrollbar{width:10px;background-color:#F5F5F5;}
+.input-group textarea::-webkit-scrollbar-thumb{background-color:#000000;border:2px solid #555555;}
+.input-group input[type="email"]:focus,
+.input-group input[type="password"]:focus,
+.input-group input[type="text"]:focus{border:1px solid #555d89;-moz-box-shadow:#555d89 0px 0px 10px;-webkit-box-shadow:#555d89 0px 0px 10px;box-shadow:#555d89 0px 0px 10px;background-image:none !important;}
+.content-wrapper{width:100%;height:auto;box-sizing:border-box;padding:10px 20px;margin-top:20px;border-radius:15px;}
+.content-wrapper strong{color:#bc8b3a;}
+.content-wrapper h2{font-size:18px;font-weight:400;color:#bc8b3a;margin-bottom:15px;}
+.content-wrapper fieldset h2{font-size:16px;font-weight:500;color:#ecbb6d;}
+.content-wrapper fieldset li{margin-bottom:5px;}
+.content-wrapper p{margin-bottom:10px;}
+.content-wrapper ul{margin:10px 15px;list-style:square;}
+.content-wrapper ol{margin:10px 15px;list-style:decimal;}
+.content-wrapper li{color:#cdcdc1;margin-bottom:5px;}
+.content-wrapper table{width:100%;}
+.content-wrapper table th{font-weight:500;color:#cb9233;}
+.content-wrapper fieldset{width:100%;padding:20px;margin:15px 0;box-sizing:border-box;border:1px solid #463a24;border-radius:5px;}
+.content-wrapper fieldset legend{font-size:19px;padding:0 5px;font-weight:500;color:#f5d197;font-family: 'Cinzel Decorative';text-transform: uppercase;}
+.content-wrapper table td{border:1px solid #463a24;border-radius:5px;}
+.content-wrapper .error label{color:red;}
+.content-wrapper .success label{color:green;}
+.content-wrapper .error .error-message{display:block;}
+.content-wrapper .success .error-message{display:none;}
+.content-wrapper .error input[type=text],
+.content-wrapper .error input[type=password]{border:1px solid red;}
+.content-wrapper .success input[type=text],
+.content-wrapper .success input[type=password]{border:1px solid green;}
+.content-wrapper .fieldsetbox{width:400px;height:300px;padding:60px;margin-left:550px;top:-25px;box-sizing:border-box;border:2px solid #463a24;border-radius:5px;}
+.content-wrapper .fieldsetbox legend{font-size:16px;margin-left:80px;margin-top:-40px;color:#bc8b3a;}
+
+/*Botao style*/
+.button{height:36px;box-shadow:0 0 5px #000;display:inline-block;border:0;padding:0;outline:none;background:none;}
+.button span{display:inline-block;font-weight:normal;margin:0;padding:0;border:none;}
+.button .button-left,
+.button .button-right{line-height:36px;padding:0;height:36px;background:url('../img/button-1.png');border:0;margin:0;display:inline-block;}
+.button .button-left{padding-left:25px;background-position:0 0;}
+.button .button-right{padding-right:25px;background-position:100% -123px;color:#ffcb8d;text-shadow:0 0 5px #dd3400;text-transform:uppercase;overflow:hidden;}
+.button:hover .button-left{background-position:0 -41px;}
+.button:hover .button-right{color:#fff;cursor:pointer;background-position:100% -164px;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+
+@media (max-width: 1900px){
+	.body {
+	  width: 1230px;
+	}
+  }
+  
+@media (max-width: 992px){
+	.body {
+	  width: 960px;
+	  max-width: 100%;
+	}
+}
